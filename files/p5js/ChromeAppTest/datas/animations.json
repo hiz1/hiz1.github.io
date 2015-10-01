@@ -1,0 +1,76 @@
+{
+  "slash" :{
+    "type":"unit",
+    "file":"pipo-btleffect001.png",
+    "se"  :"slash",
+    "col":5,
+    "row":1,
+    "interval":1
+  },
+  "punch" :{
+    "type":"unit",
+    "file":"pipo-btleffect004.png",
+    "se"  :"attack",
+    "col":7,
+    "row":1,
+    "interval":1,
+    "dpos":[-4,-4]
+  },
+  "bow" :{
+    "type":"unit",
+    "file":"pipo-btleffect006.png",
+    "se"  :"attack",
+    "col":7,
+    "row":1,
+    "interval":1,
+    "dpos":[-4,-4],
+    "rotate":true
+  },
+  "destroy" :{
+    "type":"unit",
+    "file":"pipo-btleffect003.png",
+    "col":5,
+    "row":1,
+    "interval":1
+  },
+  "summon": {
+    "type":"unit",
+    "file":"pipo-btleffect045.png",
+    "col":10,
+    "row":1,
+    "interval":1,
+    "dpos":[0,-20]
+  },
+  "fire" :{
+    "type":"range",
+    "file":"pipo-btleffect036.png",
+    "se"  :"fire",
+    "col":7,
+    "row":1,
+    "interval":1
+  },
+  "ice" :{
+    "type":"range",
+    "file":"pipo-btleffect025.png",
+    "se"  :"wind",
+    "col":8,
+    "row":1,
+    "interval":1
+  },
+  "freeze" :{
+    "type":"range",
+    "file":"pipo-btleffect038.png",
+    "se"  :"wind",
+    "col":8,
+    "row":1,
+    "interval":1
+  },
+  "dark" :{
+    "type":"range",
+    "file":"pipo-btleffect014.png",
+    "se"  :"dark",
+    "col":8,
+    "row":1,
+    "interval":1
+  }
+}

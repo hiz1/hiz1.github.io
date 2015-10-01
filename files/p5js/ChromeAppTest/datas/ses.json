@@ -1,0 +1,50 @@
+{
+  "gameover" :{
+    "file":"[System]Knockdown1_default.ogg",
+    "volume":1.0
+  },
+  "prepare" :{
+    "file":"[Action]Swing1_Komori.ogg",
+    "volume":0.15
+  },
+  "attack" :{
+    "file":"[Effect]Attack1_panop.ogg",
+    "volume":0.3
+  },
+  "slash" :{
+    "file":"[Effect]Attack6_panop.ogg",
+    "volume":0.3
+  },
+  "bow":{
+    "file":"[Effect]SHA_panop.ogg",
+    "volume":0.3
+  },
+  "fire":{
+    "file":"[Effect]Fire1_panop.ogg",
+    "volume":0.3
+  },
+  "wind":{
+    "file":"[Effect]WindBlast1_panop.ogg",
+    "volume":0.3
+  },
+  "heal":{
+    "file":"[Effect]Healing3_default.ogg",
+    "volume":0.3
+  },
+  "get":{
+    "file":"[System]Get1_default.ogg",
+    "volume":0.8
+  },
+  "knockdown":{
+    "file":"[Effect]Attack1_default.ogg",
+    "volume":0.5
+  },
+  "summon":{
+    "file":"[Effect]HYUIN2_panop.wav.ogg",
+    "volume":0.5
+  },
+  "dark":{
+    "file":"[Effect]SpecialAttack2_panop.ogg",
+    "volume":0.4
+  }
+}

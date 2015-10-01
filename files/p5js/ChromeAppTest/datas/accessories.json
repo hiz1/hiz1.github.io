@@ -1,0 +1,39 @@
+{
+  "shoes" :{
+    "name":"ステップシューズ",
+    "icon":173,
+    "type":"move",
+    "dest":[[-1,-1], [-1,1],[1,-1],[1,1]],
+    "desc":"斜めに移動できるシューズ"
+  },
+  "backshoes" :{
+    "name":"バックシューズ",
+    "icon":174,
+    "type":"move",
+    "dest":[[-2,0],[1,-1],[1,1]],
+    "jump":true,
+    "desc":"後方にジャンプできるシューズ。自滅に注意。"
+  },
+  "shield" : {
+    "name":"シールド",
+    "icon":170,
+    "type":"guard",
+    "range":[[1,0],[1,1],[1,-1]],
+    "rate":50,
+    "knockback":0,
+    "noknockback":true,
+    "nostan":true,
+    "desc":"前方からのダメージを半減する盾"
+  },
+  "mirage" : {
+    "name":"ミラージュマント",
+    "icon":182,
+    "type":"guard",
+    "range":[[1,0],[1,1],[1,-1],[0,1],[0,-1],[-1,0],[-1,1],[-1,-1]],
+    "rate":50,
+    "knockback":2,
+    "noknockback":false,
+    "nostan":true,
+    "desc":"自ら吹き飛ばされて全方位からのダメージを半減"
+  }
+}

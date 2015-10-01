@@ -1,0 +1,159 @@
+{
+  "sword" :{
+    "name":"ショートソード"    ,
+    "icon":564,
+    "power":1,
+    "wait":0,
+    "busy":0,
+    "desc":"扱いやすい短剣。前方三方向を攻撃でき、隙も無い。",
+    "actions":[
+      { "type" :"attack",
+        "range":[[1,0],[1,1],[1,-1]],
+        "power":1,
+        "anim":"slash"
+      }
+      ]
+  },
+  "katana" :{
+    "name":"居合刀"    ,
+    "icon":560,
+    "power":2,
+    "wait":2,
+    "busy":0,
+    "desc":"居合刀。強力な斬撃を繰り出すと共に高速移動する。",
+    "actions":[
+      {
+        "type":"move",
+        "vel":[2,0],
+        "aim":true,
+        "jump":false
+      },
+      { "type" :"attack",
+        "range":[[1,0],[1,1],[1,-1],[0,1],[0,-1],[-1,0],[-1,1],[-1,-1]],
+        "power":2,
+        "anim":"slash"
+      }
+      ]
+  },
+  "scythe":{
+    "name":"サイス"    ,
+    "icon":576,
+    "type" :"attack",
+    "range":[[1,0],[1,1],[1,-1],[0,1],[0,-1],[-1,0],[-1,1],[-1,-1]],
+    "power":1,
+    "wait":0,
+    "busy":1,
+    "anim":"slash",
+    "desc":"周囲を切り裂く鎌。攻撃後に隙がある。"
+  },
+  "hummer":{
+    "name":"ハンマー"    ,
+    "icon":580,
+    "type" :"attack",
+    "range":[
+      [3,0],[3,1],[3,-1],[3,2],[3,-2],
+      [2,0],[2,1],[2,-1],[2,2],[2,-2],
+      [1,0],[1,1],[1,-1],[1,2],[1,-2],
+      [0,0],[0,1],[0,-1],[0,2],[0,-2]
+    ],
+    "power":0,
+    "wait":1,
+    "busy":0,
+    "cancel":false,
+    "anim":"punch",
+    "impact":3,
+    "desc":"破壊力は無いが、敵の動きを止める事ができる。"
+  },
+  "greatsword"  :{
+    "name":"グレートソード"    ,
+    "icon":565,
+    "type" :"attack",
+    "range":[
+      [1,0],[1,1],[1,2],[1,-1],[1,-2],
+      [2,0],[2,1],[2,-1],
+      [3,0],
+      [0,0],[0,1],[0,2],[0,3],[0,-1],[0,-2],[0,-3]],
+    "power":3,
+    "wait":2,
+    "busy":1,
+    "cancel":false,
+    "anim":"slash",
+    "desc":"隙が大きいが広範囲に大ダメージを与える大剣"
+  },
+  "bow"  :{
+    "name":"弓矢"    ,
+    "icon":116,
+    "power":1,
+    "range":[[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0]],
+    "penetrate":false,
+    "wait":0,
+    "busy":1,
+    "cancel":true,
+    "desc":"遠距離に攻撃できる矢を放つ。敵は貫通しない。",
+    "anim":"bow",
+    "actions" : [
+      {
+        "type" :"attack"
+      }
+    ]
+  },
+  "ballista"  :{
+    "name":"バリスタ"    ,
+    "icon":135,
+    "power":5,
+    "range":[[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,0],[13,0]],
+    "penetrate":false,
+    "wait":3,
+    "busy":1,
+    "cancel":false,
+    "knockback":3,
+    "anim":"bow",
+    "desc":"攻城兵器。凄まじい威力と吹き飛ばし効果を持つ。",
+    "actions" : [
+      {
+        "type" :"attack",
+        "penetrate":false
+      }
+    ]
+  },
+  "fire"  :{
+    "name":"ファイア"    ,
+    "icon":459,
+    "type" :"attack",
+    "range":[
+      [2,0],
+      [3,0],[3,1],[3,-1],
+      [4,0],[4,1],[4,-1],[4,2],[4,-2],
+      [5,0],[5,1],[5,-1],
+      [6,0]],
+    "power":2,
+    "wait":3,
+    "busy":1,
+    "cancel":true,
+    "anim":"fire",
+    "canGuard":false,
+    "desc":"離れた場所を炎で焼き尽くす。詠唱中は無防備。"
+  },
+  "wall" :{
+    "name" :"ウォール",
+    "icon" :32,
+    "type" :"summon",
+    "id"   :"tree",
+    "range":[[2,0],[2,-1],[2,1]],
+    "wait":2,
+    "busy":0,
+    "cancel":true,
+    "desc":"前方に壁を発生させる。"
+  },"slime" :{
+    "name" :"スライム",
+    "icon" :476,
+    "type" :"summon",
+    "id"   :"slime",
+    "range":[[1,0],[1,-1],[1,1]],
+    "wait":2,
+    "busy":0,
+    "cancel":true,
+    "desc":"スライムを召還し、戦わせる。"
+  }
+
+}
