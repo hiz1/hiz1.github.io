@@ -22,35 +22,35 @@ function preload() {
   C.accessories = loadJSON("datas/accessories.json");
   C.anims   = loadJSON("datas/animations.json");
 
-  // // 画像先読み
-  // imageCache("assets/backgrounds/06forest.jpg");
-  // imageCache("assets/backgrounds/01sougen.jpg");
-  // imageCache("assets/title.png");
-  // var weaponKeys = Object.keys(C.weapons);
-  // for(var i=weaponKeys.length-1;0<=i;i--) {
-  //   iconImage(C.weapons[weaponKeys[i]]);
-  // }
-  // var accessoryKeys = Object.keys(C.accessories);
-  // for(var i=accessoryKeys.length-1;0<=i;i--) {
-  //   iconImage(C.accessories[accessoryKeys[i]]);
-  // }
-  // var animKeys = Object.keys(C.anims);
-  // for(var i=animKeys.length-1;0<=i;i--) {
-  //   var anim = C.anims[animKeys[i]];
-  //   getAnimation("assets/animations/"+anim.file, anim.col, anim.row, anim.interval, [], [], 0);
-  // }
-  // imageCache("assets/charactors/tree.png");
-  // imageCache("assets/charactors/mon_042.png");
-  // imageCache("assets/charactors/mon_032.png");
-  // imageCache("assets/charactors/mon_002.png");
-  // imageCache("assets/charactors/mon_008.png");
-  // imageCache("assets/charactors/mon_084.png");
-  // imageCache("assets/charactors/mon_247.png");
-  // imageCache("assets/charactors/mon_258.png");
+  // 画像先読み
+  imageCache("assets/backgrounds/06forest.jpg");
+  imageCache("assets/backgrounds/01sougen.jpg");
+  imageCache("assets/title.png");
+  var weaponKeys = Object.keys(C.weapons);
+  for(var i=weaponKeys.length-1;0<=i;i--) {
+    iconImage(C.weapons[weaponKeys[i]]);
+  }
+  var accessoryKeys = Object.keys(C.accessories);
+  for(var i=accessoryKeys.length-1;0<=i;i--) {
+    iconImage(C.accessories[accessoryKeys[i]]);
+  }
+  var animKeys = Object.keys(C.anims);
+  for(var i=animKeys.length-1;0<=i;i--) {
+    var anim = C.anims[animKeys[i]];
+    getAnimation("assets/animations/"+anim.file, anim.col, anim.row, anim.interval, [], [], 0);
+  }
+  imageCache("assets/charactors/tree.png");
+  imageCache("assets/charactors/mon_042.png");
+  imageCache("assets/charactors/mon_032.png");
+  imageCache("assets/charactors/mon_002.png");
+  imageCache("assets/charactors/mon_008.png");
+  imageCache("assets/charactors/mon_084.png");
+  imageCache("assets/charactors/mon_247.png");
+  imageCache("assets/charactors/mon_258.png");
 
-  // // BGM読み込み
-  // C.bgms["first"] = loadSound("assets/bgms/field_douga.mp3");
-  // loaded.seJson= loadJSON("datas/ses.json");
+  // BGM読み込み
+  C.bgms["first"] = loadSound("assets/bgms/field_douga.mp3");
+  loaded.seJson= loadJSON("datas/ses.json");
 
   randomSeed(+new Date());
   // frameRate(30);
