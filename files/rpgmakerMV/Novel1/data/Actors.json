@@ -1,0 +1,5 @@
+[
+null,
+{"id":1,"battlerName":"Package2_5","characterIndex":0,"characterName":"","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"","traits":[{"code":23,"dataId":5,"value":2}],"initialLevel":1,"maxLevel":99,"name":"王さマン","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Package1_6","characterIndex":7,"characterName":"","classId":3,"equips":[2,1,2,3,0],"faceIndex":7,"faceName":"","traits":[{"code":23,"dataId":5,"value":2}],"initialLevel":1,"maxLevel":99,"name":"惣菜屋の娘","nickname":"","note":"","profile":""}
+]
