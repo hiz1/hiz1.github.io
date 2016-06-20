@@ -99,7 +99,9 @@ function draw() {
     textAlign(CENTER);
     textSize(32);
     var waza = "失敗！";
-    if(score == 1) {
+    if(score == 0) {
+      waza = "失敗！";
+    } else if(score == 1) {
       waza = "V字バランス";
     } else if(score == 2) {
       waza = "サボテン";
